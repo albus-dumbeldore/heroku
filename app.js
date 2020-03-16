@@ -10,6 +10,4 @@ app.get("/about",(req,res)=>{
     res.render("about");
 })
 
-app.listen(3000,()=>{
-    console.log("port http://localhost:3000")
-})
+app.listen(port);
